@@ -1,0 +1,155 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+\usepackage{graphicx}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\begin{document}
+
+\header{Jean-Mark}{Wright}           % Your name
+
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{contact}
+Apt 6, 
+7 Burlington Avenue,
+Kingston 10,
+St. Andrew
+Jamaica
+~
++1 (876) 868 0586
++1 (876) 866 1437
+~
+codedbyjay@
+gmail.com
+~
+\href {skype://jaywhy13}{jaywhy13} \includegraphics[height=16pt]{img/skype.png}
+\href {http://github.com/codedbyjay}{codedbyjay} \includegraphics[height=16pt]{img/github.png}
+%
+\section{languages}
+English
+%
+\section{programming}
+Python, Android, PHP, SQL, HTML5, CSS, Javascript, Bash
+%
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{skills}
+  \vspace{-0.2cm}
+
+Software Architect/Developer, DevOps Engineer
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+  {2007--Now}
+  {MONA GEOINFORMATICS INSTITUTE}
+  {Kingston, Jamaica}
+  {\jobtitle{Lead GIS Developer}\\  
+\begin{itemize}
+\item GK Insurance Portal - Developed online Insurance portal for Grace Kennedy to allow customers to get a quote and purchase Insurance. Portal built using Django, Celery, Tastypie, Redis and Postgres.
+\item Aggregator - Built web crawler to search local dealer websites for car prices using Django, Elasticsearch and Python Pattern toolkit. 
+\item GK Android - Built Android application to allow customers to view Insurance policies, submit claims, accident photos and search for emergency locations. Backend built using Django and GeoDjango.
+\item NEPA Climate Change Tool - Developed web-based GIS solution to allow National Environmental Protection Agency to determine feasibility for proposed housing developments (setback line, coastal resource protection). Solution was built using Django, GeoDjango, PostGIS and ArcGIS Server python libraries.
+\item Vehicle Concierge System - Created fleet tracking system that augments customer location with parish, community and surrounding points of interest. Platform was built using Django, Celery, PostgreSQL, Postgis, Redis, MongoDB, NodeJS, DustJS and Socket.IO. 
+\item Caribbean Risk Atlas - Built a platform using the World Bank's Geonode platform (based on Django and GeoServer) to allow Caribbean nations to upload and share spatial data. Extensions included map previews, country previews, feeds for latest maps and integration of Disqus for comments.
+\item Integrated Crime and Violence Information System - created Symfony based solution to house information on crime, violence and other violence related injuries and generate reports. System was developed using Symfony, Postgis, Memcache, Zend Lucene and Fusion Charts.
+\item GasLo - developed Blackberry  application  to  show  lowest  gas  prices  based  on  user proximity. Backend built using Django.
+\item Cabinet Web Map - lead development of web map using ESRI Library for Flex to show spatial data collected for the Government from public sector and private sector organizations.
+\item iCampus - Augmented the OpenZoom project to display map that allows users to view and interact with a map of the UWI campus. This project was built using Flash and ActionScript.
+\item Jamaica Social Investment Fund Web Map - Developed web map to show JSIF datasets using the OpenLayers JS API and GeoServer map server. 
+\end{itemize}
+}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010--2011}
+{M.Sc. {\normalfont in Computer Science (Distinction)}}
+{University of the West Indies}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\entry
+{2004--2009}
+{B.Sc. {\normalfont in Computer Science}}
+{University of the West Indies}
+{}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	OTHER QUALIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{other qualifications}
+
+%\begin{entrylist} 
+%------------------------------------------------
+%\entry
+%{2013}
+%{Qualification}
+%{Institution}
+%{\vspace{-0.3cm}}
+%------------------------------------------------
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{awards}
+
+%\begin{entrylist}
+%------------------------------------------------
+%\entry
+%{2014}
+%{Award name}
+%{Institution}
+%{Award description. Award description. Award description. Award description. Award description. Award description. Award description. }
+%------------------------------------------------
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+  \vspace{-0.2cm}
+
+\textbf{professional:} AI, Machine Learning and Big Data. \textbf{personal:} music (keyboard, guitar, choirs)
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
